@@ -1,0 +1,19 @@
+.explore{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    margin: 50px;
+}
+.explore a {
+    text-decoration: none;
+    color: black;
+}
+.blog{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1500px;
+    margin-left: 270px;
+}

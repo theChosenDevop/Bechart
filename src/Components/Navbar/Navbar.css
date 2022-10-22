@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+  height: 80px;
+}
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: rgb(179, 169, 169);
+}
+.nav-container h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.icons {
+  display: flex;
+  gap:12px;
+}
+.icons > button {
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  border-radius: 100%;
+  border: none;
+  position: relative;
+}
+.icons span {
+  position: absolute;
+  top: -3px;
+  left: 30px;
+  background-color: rgb(219, 184, 96);
+  width: 21px;
+  height: 18px;
+  border-radius: 100%;
+}
