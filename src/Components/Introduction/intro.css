@@ -1,34 +1,118 @@
-.intro {
-  margin: 100px auto 20px;
-  display: flex;
-
-  justify-content: space-between;
-  align-items: center;
-  width: 1200px;
-  height: 100%;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-.intro-article {
-  position: relative;
-}
-.intro-article > .intro-container img {
-  height: 100%;
+.intro-container {
   width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: -1;
+  height: calc(100% -60px);
+  overflow: hidden;
 }
-.intro-content {
-  z-index: 100;
-  position: absolute;
-  left: 20px;
+.intro-section {
+  display: block;
+  margin: 0 20px;
+  align-items: center;
+}
+.intro-article img {
+  max-width: 305px;
+  max-height: 300px;
+}
+
+@media (max-width: 575px) {
+  .intro-container {
+    margin-left: 13%;
+  }
+  .intro-article img {
+    max-width: 305px;
+    max-height: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .intro-container {
+    margin-left: 8%;
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  .intro-section {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .intro-article {
+    position: relative;
+    margin-right: 20px;
+  }
+  .intro-article img {
+    width: 305px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .intro-content{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 769px) {
+  .intro-container {
+    margin-left: 8%;
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  .intro-section {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .intro-article {
+    position: relative;
+    margin-right: 20px;
+  }
+  .intro-article img {
+    width: 280px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .intro-article .large2 {
+    width:500px;
+  }
+  .intro-article .large3 {
+    width:500px;
+  }
+  .intro-content{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width:1200px) {
+  .intro-container {
+    margin-left: 8%;
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  .intro-section {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .intro-article {
+    position: relative;
+    margin-right: 20px;
+  }
+  .intro-article img {
+    width: 480px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .intro-article .large2 {
+    width:500px;
+  }
+  .intro-article .large3 {
+    width:500px;
+  }
+  .intro-content{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding-top: 20px;
+  }
 }

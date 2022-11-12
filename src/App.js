@@ -1,22 +1,23 @@
-import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Intro from './Components/Introduction/Intro'
-import About from './Components/About/About'
-import Products from './Components/Products/Products'
-import Explore from './Components/Explore/Explore'
-import Newsletter from './Components/Newsletter/Newsletter'
+import React from "react";
+import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
+import Intro from "./Components/Introduction/Intro";
+import About from "./Components/About/About";
+import Products from "./Components/Products/Products";
+import Explore from "./Components/Explore/Explore";
+import Newsletter from "./Components/Newsletter/Newsletter";
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Intro />
-      <About/>
+      <About />
       <Products />
       <Explore />
-      <Newsletter />
+      {/* <Newsletter /> */}
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

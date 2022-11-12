@@ -1,18 +1,64 @@
-footer{
+ .footer {
     margin: 60px;
+    font-size: 23px;
 }
-.newsletter{
+.container{
     display: flex;
     justify-content: space-around;
-    margin-left:270px;
+    margin-left:80px;
     gap: 7rem;
+}
+.container div h1{
+    font-size: 37px;
+}
+.container div p {
+    font-size: 26px;
+    flex-wrap: wrap;
+}
+.container input{
+    padding: 21px;
+    margin: 60px;
 }
 .details{
     display: flex;
     justify-content: space-around;
     margin: 60px;
-    margin-left:270px;
+    margin-left:160px;
+    align-items: center;
 }
+
 .details ul {
     list-style: none;
+    line-height: 40px;
+}
+.title{
+    font-weight: bold;
+    font-size: 27px;
+}
+h6{
+    font-size: 26px;
+}
+.paragraph{
+    text-align: center;
+}
+.arrow-up{
+    width: 40px;
+    height: 32px;
+    border-radius: 100%;
+    background-color: goldenrod;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    padding: 5px;
+    bottom: 100;
+    right: 5px;
+}
+.fa-arrow-up {
+    color:white;
+}
+article ul li input {
+    padding: 20px;
+}
+@media (min-width:575px) {
+    
 }

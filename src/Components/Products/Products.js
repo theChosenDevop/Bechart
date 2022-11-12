@@ -24,9 +24,7 @@ const Products = () => {
         <div className="products-container" >
           <div className="products-nav">
             <h1>Popular Products</h1>
-            <div >
               <Categories categories={categories} filterItems={filterItems} />
-            </div>
           </div>
           <Menu items={menuItems} />
         </div>

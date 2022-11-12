@@ -4,7 +4,7 @@ import "./Explore.css";
 
 const Explore = () => {
   return (
-    <div>
+    <div className="explore-container">
       <div className="explore">
         <h1>Explore Our Blog</h1>
         <a href="#"><p>View All</p></a>

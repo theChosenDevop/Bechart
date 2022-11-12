@@ -8,7 +8,9 @@ const Navbar = () => {
         <div className="input-holder">
           <input type="text" placeholder="Search Anything" />
         </div>
-        <h3>Bechart</h3>
+       <div className="intro-head">
+         <h3>Bechart</h3>
+       </div>
         <div className="icons">
           <button>
             <User /> <span>0</span>
@@ -19,6 +21,7 @@ const Navbar = () => {
           <button>
             <Heart /> <span>1</span>
           </button>
+        
         </div>
       </div>
     </nav>

@@ -1,19 +1,17 @@
 nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: white;
   width: 100vw;
   position: fixed;
   top: 0;
   z-index: 999;
+  height: 60px;
 }
 .nav-container {
   display: flex;
   justify-content: space-between;
   width: 60%;
   align-items: center;
-  height: 80px;
+  height: 100%;
 }
 input {
   outline: 0;
@@ -25,23 +23,81 @@ input {
   font-size: 30px;
 }
 .icons {
-  display: flex;
-  gap:12px;
-}
+  display:flex;
+  justify-content:flex-end;
+  gap: 12px;
+  width: 30%;
+  height: 100%;
+  margin-left: 100px;
+  align-items: center;}
+
 .icons > button {
-  width: 40px;
-  height: 20px;
+  padding: 3px;
+  width: 30px;
+  height: 40px;
   background-color: white;
   border-radius: 100%;
   border: none;
   position: relative;
-}
+  }
 .icons span {
   position: absolute;
-  top: -3px;
-  left: 30px;
+  top: 0px;
+  padding: 3px;
+  left: 15px;
   background-color: rgb(219, 184, 96);
-  width: 21px;
-  height: 18px;
+  width: 15px;
+  height: 20px;
   border-radius: 100%;
+}
+@media (max-width: 575px) {
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 37px;
+    min-width: 20%;
+  }
+  .input-holder {
+    display: none;
+  }
+}
+@media (max-width: 768px) { 
+  .nav-container {
+   margin-left: 60px;
+   width: 100vw;
+  }
+  .input-holder {
+    margin: 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    align-items: center;
+    height: 100%;
+  }
+ 
+  .input-holder,.intro-head,.icons {
+    margin: 20px;
+  }
+  .nav-container {
+    margin-left: 60px;
+   }
+}
+@media (min-width: 1025px) {
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 100%;
+  }
+  .input-holder,.intro-head,.icons {
+    margin: 50px;
+    justify-content: center;
+  }
+  .nav-container {
+    margin-left: 60px;
+   }  
 }
