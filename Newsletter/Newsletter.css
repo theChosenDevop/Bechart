@@ -1,0 +1,63 @@
+.container h3 {
+  margin-left: 120px;
+  gap: 7rem;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.container-row{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    gap: 10px;
+}
+.container-col{
+    display: block;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.copyright{
+    margin:30px;
+    margin-left: 60px;
+}
+@media(min-width:368px)
+{
+    section{
+        display: block;
+    }
+}
+@media( min-width:567px ){
+section{
+    display: block;
+}
+.container-row{
+    margin-left: 80px;
+    gap: 10px;
+}
+}
+
+@media (min-width: 568px){
+    section{
+    display: flex;
+    justify-content: space-around;
+ }
+}
+@media (min-width: 768px) {
+ section{
+    display: flex;
+    justify-content: space-around;
+ }
+}
+@media (min-width: 1024px) {
+    section{
+        display: flex;
+        justify-content: space-around;
+     }
+}
+@media (min-width: 1025px) {
+    section{
+        display: flex;
+        justify-content: space-around;
+     }
+}
